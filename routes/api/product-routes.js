@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const { json } = require('../../../../course/13-ORM/01-Activities/25-Ins_Literals/config/connection');
 const { Product, Category, Tag, ProductTag } = require('../../models');
 
 // The `/api/products` endpoint
